@@ -1,0 +1,22 @@
+{
+  "name": "vue-particle-effect-button",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --no-cache --no-source-maps --detailed-report"
+  },
+  "dependencies": {
+    "vue": "2.5.17"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "2.1.2",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-vue": "2.0.2",
+    "parcel-bundler": "1.9.7",
+    "postcss-modules": "1.3.2",
+    "vue-hot-reload-api": "2.3.0",
+    "vue-template-compiler": "2.5.17"
+  }
+}
