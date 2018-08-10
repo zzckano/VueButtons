@@ -13,6 +13,8 @@ Vue 版本的粒子效果。react-particle-effect-button 的 Vue 移植。除 Vu
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+下载项目所有文件后，如果想在本地调试代码，请执行以下命令：
+```bash
+yarn install
+yarn dev
+```
