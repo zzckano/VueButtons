@@ -2,7 +2,7 @@
 
 #### 项目介绍
 
-Vue 版本的粒子效果。react-particle-effect-button 的 Vue 移植。除 Vue 框架外零依赖。
+Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/transitive-bullshit/react-particle-effect-button) 的 Vue 移植。除 Vue 框架外零依赖。
 
 #### 软件架构
 
