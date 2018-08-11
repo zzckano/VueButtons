@@ -5,10 +5,12 @@
     </h1>
     <a
       :style="{ position: 'absolute', zIndex: 1000, top: 0, right: 0, border: 0 }"
-      href="https://gitee.com/pxp/vue-particle-effect">
+      href="https://gitee.com/pxp/vue-particle-effect"
+    >
       <img
-        src='https://gitee.com/pxp/vue-particle-effect/widgets/widget_1.svg'
-        alt='Fork me on Gitee' />
+        src="https://gitee.com/pxp/vue-particle-effect/widgets/widget_1.svg"
+        alt="Fork me on Gitee"
+      >
     </a>
     <div :class="$style.blocks">
       <DemoBlock
@@ -28,7 +30,7 @@ import DemoBlock from './demo-block'
 
 export default {
   components: {
-    DemoBlock
+    DemoBlock,
   },
   data() {
     return {
