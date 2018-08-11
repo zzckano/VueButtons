@@ -3,6 +3,13 @@
     <h1 :style="{ textAlign: 'center' }">
       Vue Particle Effect Buttons
     </h1>
+    <a
+      :style="{ position: 'absolute', zIndex: 1000, top: 0, right: 0, border: 0 }"
+      href="https://gitee.com/pxp/vue-particle-effect">
+      <img
+        src='https://gitee.com/pxp/vue-particle-effect/widgets/widget_1.svg'
+        alt='Fork me on Gitee' />
+    </a>
     <div :class="$style.blocks">
       <DemoBlock
         v-for="(demo, index) in demos"
@@ -17,7 +24,7 @@
 </template>
 
 <script>
-import DemoBlock from "./demo-block"
+import DemoBlock from './demo-block'
 
 export default {
   components: {
@@ -251,17 +258,17 @@ export default {
 
 <style module>
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: sans-serif;
 }
 
 .container {
-  padding: 48px 0;
-  background: #000;
   width: 100%;
   min-height: 100vh;
+  padding: 48px 0;
   color: #fff;
+  background: #000;
 }
 
 .blocks {
