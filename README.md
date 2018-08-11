@@ -148,3 +148,15 @@ export default {
 默认值：`() => rand(4)`
 
 说明：`rand`函数的定义参见[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L172)。
+
+- particlesAmountCoefficient
+
+类型：`Number`
+
+默认值：`3`
+
+- oscillationCoefficient
+
+类型：`Number`
+
+默认值：`20`
