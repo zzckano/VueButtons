@@ -123,4 +123,28 @@ export default {
 
 默认值：`'easeInOutCubic'`
 
-说明：当绑定的值类型为`String`时，使用预设动画值，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)
+说明：当绑定的值类型为`String`时，使用预设动画值，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)。
+
+- canvasPadding
+
+类型：`Number`
+
+默认值：`150`
+
+说明：单位是像素。在画布上预留额外的空间来显示动画。
+
+- size
+
+类型：`Number`或`Function`
+
+默认值：`() => Math.floor(Math.random() * 3 + 1)`
+
+说明：单位是像素。
+
+- speed
+
+类型：`Number`或`Function`
+
+默认值：`() => rand(4)`
+
+说明：`rand`函数的定义参见[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L172)。
