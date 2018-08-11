@@ -65,4 +65,5 @@ export default {
 </template>
 ```
 
-`ParticleEffect`组件中，由于使用了`slot`，子节点除了可以是一个简单的`button`外，还可以更复杂的`VNode`。
+`ParticleEffect`组件中，由于使用了`slot`，子节点除了可以是一个简单的`button`外，还可以是更复杂的`VNode`。
+通过修改`hidden`属性的值，来启动粒子动画。比如用户点击了按钮，程序把`hidden`绑定的变量设为`true`，按钮便会在粒子动画中慢慢消失。
