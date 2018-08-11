@@ -446,7 +446,7 @@ export default {
       }
     },
     addParticle(startX, startY) {
-      const frames = (this.duration * 60) / 1000
+      const frames = this.duration * 60 / 1000
       const speed = isFunc(this.speed) ? this.speed() : this.speed
       const size = isFunc(this.size) ? this.size() : this.size
 
@@ -457,7 +457,7 @@ export default {
         y: 0,
         angle: rand(360),
         counter: this.status === 'hiding' ? 0 : frames,
-        increase: (Math.PI * 2) / 100,
+        increase: Math.PI * 2 / 100,
         life: 0,
         death:
           this.status === 'hiding' ? frames - 20 + Math.random() * 40 : frames,
@@ -494,7 +494,7 @@ export default {
 
         if (p.life < p.death) {
           ctx.translate(p.startX, p.startY)
-          ctx.rotate((p.angle * Math.PI) / 180)
+          ctx.rotate(p.angle * Math.PI / 180)
           ctx.globalAlpha =
             this.status === 'hiding' ? 1 - p.life / p.death : p.life / p.death
           ctx.beginPath()
@@ -517,7 +517,7 @@ export default {
           }
 
           ctx.globalAlpha = 1
-          ctx.rotate((-p.angle * Math.PI) / 180)
+          ctx.rotate(-p.angle * Math.PI / 180)
           ctx.translate(-p.startX, -p.startY)
         }
       }
