@@ -71,7 +71,7 @@ export default {
 
 #### 属性参考
 
-- hidden
+-  **hidden** 
 
 类型：`Boolean`
 
@@ -79,7 +79,7 @@ export default {
 
 说明：`ParticleEffect`组件会监控该属性的变化，从而启动相应的特效动画。
 
-- direction
+-  **direction** 
 
 类型：`String`
 
@@ -87,7 +87,7 @@ export default {
 
 说明：可选值包括`'left', 'right', 'top', 'bottom'`。
 
-- particleType
+-  **particleType** 
 
 类型：`String`
 
@@ -95,7 +95,7 @@ export default {
 
 说明：可选值包括`'circle', 'rectangle', 'triangle'`。
 
-- particleStyle
+-  **particleStyle** 
 
 类型：`String`
 
@@ -103,13 +103,13 @@ export default {
 
 说明：可选值包括`'fill', 'stroke'`。
 
-- particleColor
+-  **particleColor** 
 
 类型：`String`
 
 默认值：`'#000'`
 
-- duration
+-  **duration** 
 
 类型：`Number`
 
@@ -117,7 +117,7 @@ export default {
 
 说明：单位是毫秒。
 
-- easing
+-  **easing** 
 
 类型：`String`或`Array`
 
@@ -125,7 +125,7 @@ export default {
 
 说明：当绑定的值类型为`String`时，使用预设动画值，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)。
 
-- canvasPadding
+-  **canvasPadding** 
 
 类型：`Number`
 
@@ -133,7 +133,7 @@ export default {
 
 说明：单位是像素。在画布上预留额外的空间来显示动画。
 
-- size
+-  **size** 
 
 类型：`Number`或`Function`
 
@@ -141,7 +141,7 @@ export default {
 
 说明：单位是像素。
 
-- speed
+-  **speed** 
 
 类型：`Number`或`Function`
 
@@ -149,13 +149,13 @@ export default {
 
 说明：`rand`函数的定义参见[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L172)。
 
-- particlesAmountCoefficient
+-  **particlesAmountCoefficient** 
 
 类型：`Number`
 
 默认值：`3`
 
-- oscillationCoefficient
+-  **oscillationCoefficient** 
 
 类型：`Number`
 
