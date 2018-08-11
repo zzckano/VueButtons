@@ -66,4 +66,23 @@ export default {
 ```
 
 `ParticleEffect`组件中，由于使用了`slot`，子节点除了可以是一个简单的`button`外，还可以是更复杂的`VNode`。
+
 通过修改`hidden`属性的值，来启动粒子动画。比如用户点击了按钮，程序把`hidden`绑定的变量设为`true`，按钮便会在粒子动画中慢慢消失。
+
+#### 属性参考
+
+- hidden
+
+类型：`Boolean`
+
+默认值：`false`
+
+说明：`ParticleEffect`组件会监控该属性的变化，从而启动相应的特效动画。
+
+- direction
+
+类型：`String`
+
+默认值： `'left'`
+
+说明：可选值包括`'left', 'right', 'top', 'bottom'`。
