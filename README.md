@@ -64,3 +64,5 @@ export default {
   </ParticleEffect>
 </template>
 ```
+
+`ParticleEffect`组件中，由于使用了`slot`，子节点除了可以是一个简单的`button`外，还可以更复杂的`VNode`。
