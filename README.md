@@ -86,3 +86,41 @@ export default {
 默认值： `'left'`
 
 说明：可选值包括`'left', 'right', 'top', 'bottom'`。
+
+- particleType
+
+类型：`String`
+
+默认值：`'circle'`
+
+说明：可选值包括`'circle', 'rectangle', 'triangle'`。
+
+- particleStyle
+
+类型：`String`
+
+默认值：`'fill'`
+
+说明：可选值包括`'fill', 'stroke'`。
+
+- particleColor
+
+类型：`String`
+
+默认值：`'#000'`
+
+- duration
+
+类型：`Number`
+
+默认值：`1000`
+
+说明：单位是毫秒。
+
+- easing
+
+类型：`String`或`Array`
+
+默认值：`'easeInOutCubic'`
+
+说明：当绑定的值类型为`String`时，使用预设动画值，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)
