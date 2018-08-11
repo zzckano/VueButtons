@@ -1,8 +1,10 @@
 # vue-particle-effect ([demo](https://pxp.gitee.io/))
 
+
 #### 项目介绍
 
 Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/transitive-bullshit/react-particle-effect-button) 的 Vue 移植。除 Vue 框架外零依赖。
+
 
 #### 软件架构
 
@@ -19,6 +21,7 @@ Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/tr
 yarn install
 yarn dev
 ```
+
 
 #### 使用说明
 
@@ -68,6 +71,7 @@ export default {
 `ParticleEffect`组件中，由于使用了`slot`，子节点除了可以是一个简单的`button`外，还可以是更复杂的`VNode`。
 
 通过修改`hidden`属性的值，来启动粒子动画。比如用户点击了按钮，程序把`hidden`绑定的变量设为`true`，按钮便会在粒子动画中慢慢消失。
+
 
 #### 属性参考
 
@@ -160,3 +164,14 @@ export default {
 类型：`Number`
 
 默认值：`20`
+
+
+#### 事件参考
+
+- **begin**
+
+说明：动画开始时触发。
+
+- **complete**
+
+说明：动画结束时触发。
