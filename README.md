@@ -127,7 +127,7 @@ export default {
 
 默认值：`'easeInOutCubic'`
 
-说明：当绑定的值类型为`String`时，使用预设动画值，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)。
+说明：当绑定的值类型为`String`时，使用预设缓动函数，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)以及[速查表](https://easings.net)。目前只支持一部分常见的缓动函数，可以通过传入含有四个数值的数组进行自定义。
 
 -  **canvasPadding** 
 
