@@ -8,7 +8,7 @@ Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/tr
 
 #### 软件架构
 
-核心文件只有一个： [particle-effect.vue](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue)
+核心文件只有一个： [particle-effect.vue](https://gitee.com/pxp/vue-particle-effect/blob/ｍａｉｎ/src/particle-effect.vue)
 
 
 #### 安装教程
@@ -68,7 +68,7 @@ export default {
 </template>
 ```
 
-`ParticleEffect`组件中，由于使用了[slot](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L558)，子节点除了可以是一个简单的`button`外，还可以是更复杂的`VNode`。
+`ParticleEffect`组件中，由于使用了[slot](https://gitee.com/pxp/vue-particle-effect/blob/ｍａｉｎ/src/particle-effect.vue#L558)，子节点除了可以是一个简单的`button`外，还可以是更复杂的`VNode`。
 
 通过修改`hidden`属性的值，来启动粒子动画。比如用户点击了按钮，程序把`hidden`绑定的变量设为`true`，按钮便会在粒子动画中慢慢消失。
 
@@ -127,7 +127,7 @@ export default {
 
 默认值：`'easeInOutCubic'`
 
-说明：当绑定的值类型为`String`时，使用预设缓动函数，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L114)以及[速查表](https://easings.net)。目前只支持一部分常见的缓动函数，可以通过传入含有四个数值的数组进行自定义。
+说明：当绑定的值类型为`String`时，使用预设缓动函数，以`ease`开头。具体参考[源码](https://gitee.com/pxp/vue-particle-effect/blob/ｍａｉｎ/src/particle-effect.vue#L114)以及[速查表](https://easings.net)。目前只支持一部分常见的缓动函数，可以通过传入含有四个数值的数组进行自定义。
 
 -  **canvasPadding** 
 
@@ -151,7 +151,7 @@ export default {
 
 默认值：`() => rand(4)`
 
-说明：`rand`函数的定义参见[源码](https://gitee.com/pxp/vue-particle-effect/blob/master/src/particle-effect.vue#L172)。
+说明：`rand`函数的定义参见[源码](https://gitee.com/pxp/vue-particle-effect/blob/ｍａｉｎ/src/particle-effect.vue#L172)。
 
 -  **particlesAmountCoefficient** 
 
