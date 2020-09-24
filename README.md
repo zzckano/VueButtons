@@ -8,7 +8,7 @@ Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/zz
 
 #### 软件架构
 
-核心文件只有一个： [particle-effect.vue](https://github.com/zzckano/VueButtons/particle-effect.vue)
+核心文件只有一个： [particle-effect.vue](https://github.com/zzckano/VueButtons/blob/master/src/particle-effect.vue)
 
 
 #### 安装教程
