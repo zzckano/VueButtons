@@ -1,14 +1,14 @@
-# vue-particle-effect ([demo](https://pxp.gitee.io/))
+# vue-particle-effect 
 
 
 #### 项目介绍
 
-Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/transitive-bullshit/react-particle-effect-button) 的 Vue 移植。除 Vue 框架外零依赖。
+Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/zzckano/VueButtons) 
 
 
 #### 软件架构
 
-核心文件只有一个： [particle-effect.vue](https://gitee.com/pxp/vue-particle-effect/blob/ｍａｉｎ/src/particle-effect.vue)
+核心文件只有一个： [particle-effect.vue](https://github.com/zzckano/VueButtons/particle-effect.vue)
 
 
 #### 安装教程
@@ -18,8 +18,8 @@ Vue 版本的粒子效果。[react-particle-effect-button](https://github.com/tr
 下载项目所有文件后，如果想在本地调试代码，请执行以下命令：
 
 ```bash
-yarn install
-yarn dev
+npm install
+npm run dev
 ```
 
 

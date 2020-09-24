@@ -37,9 +37,9 @@ export default {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '46vmax',
-        height: '46vmax',
-        margin: '2vmax 2vmax 0 0',
+        width: '26vmax',
+        height: '26vmax',
+        margin: '2vmax 2vmax',
         background: this.background,
       }
     },

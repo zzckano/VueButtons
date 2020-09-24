@@ -5,7 +5,7 @@
     </h1>
     <a
       :style="{ position: 'absolute', zIndex: 1000, top: 0, right: 0, border: 0 }"
-      href="https://gitee.com/pxp/vue-particle-effect"
+      href="https://github.com/zzckano/VueButtons"
     >
       <img
         src="https://gitee.com/pxp/vue-particle-effect/widgets/widget_1.svg"
@@ -263,6 +263,29 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+}
+body::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 0px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 0px;
+  /* scrollbar-arrow-color:red; */
+}
+
+body::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 5px rgba(218, 218, 218, 0.2);
+  box-shadow: inset 0 0 5px rgba(218, 218, 218, 0.2);
+  background-image: linear-gradient(125deg, #ff8a00, #e52e71);
+}
+
+body::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 0;
+  /* background: #1d1d1f; */
+  background: #2e2e2e;
+  border-left: 1px solid #4f4c57;
 }
 
 .container {
